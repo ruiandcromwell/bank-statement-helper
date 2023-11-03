@@ -42,8 +42,8 @@ def write_to_csv(expenses, filename):
 
 
 def main():
-    FILE_PATH = "/Users/ruiwang/work/credit_card.pdf"
-    OUT_FILE_PATH = "/Users/ruiwang/work/expenses.csv"
+    FILE_PATH = "/PATH/credit_card.pdf"
+    OUT_FILE_PATH = "/PATH/expenses.csv"
     pdf_reader = pypdf.PdfReader(FILE_PATH)
     all_expenses = []
     for page in pdf_reader.pages:
