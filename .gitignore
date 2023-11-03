@@ -1,0 +1,12 @@
+# macOS display setting files
+.DS_Store
+# Environments
+.env
+.envrc
+.venv
+.venvs
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
